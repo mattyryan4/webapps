@@ -1,0 +1,14 @@
+<%
+    fillings = ["Carnitas", "Al Pastor", "Steak", "Fish"]
+%>
+index.html.erb
+<h1>I love tacos!<h1>
+
+<p>Currently, there are <% fillings.count %> kinds of tacos. </p>
+
+<%
+    companies = Company.all 
+%>
+
+<h1>Companies</h1> 
+    
